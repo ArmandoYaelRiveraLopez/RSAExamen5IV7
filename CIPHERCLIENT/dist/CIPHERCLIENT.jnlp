@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CIPHERCLIENT.jnlp">
+  <information>
+    <title>CIPHERCLIENT</title>
+    <vendor>goopy</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CIPHERCLIENT.jar" size="4901" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="cipherclient.CIPHERCLIENT"  name="CIPHERCLIENT" />
+  <update check="always"/>
+</jnlp>

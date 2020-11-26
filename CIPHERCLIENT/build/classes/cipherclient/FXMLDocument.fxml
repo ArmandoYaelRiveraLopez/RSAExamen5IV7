@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="cipherclient.FXMLDocumentController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0c939a" height="470.0" layoutX="15.0" layoutY="15.0" stroke="TRANSPARENT" strokeType="INSIDE" width="470.0" />
+        <Button fx:id="button" layoutX="115.0" layoutY="103.0" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="274.0" text="Click Me!" />
+        <Label fx:id="label" layoutX="26.0" layoutY="337.0" minHeight="16" minWidth="69" prefHeight="130.0" prefWidth="451.0" />
+      <TextField id="TF" fx:id="tf" layoutX="177.0" layoutY="190.0" />
+      <TextArea fx:id="ta" layoutX="26.0" layoutY="229.0" prefHeight="108.0" prefWidth="451.0" />
+    </children>
+</AnchorPane>
